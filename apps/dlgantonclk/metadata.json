@@ -1,0 +1,19 @@
+{
+  "id": "dlgantonclk",
+  "name": "DLG Anton Clock",
+  "version": "0.07",
+  "description": "Daniel's custom Anton clock.",
+  "readme":"README.md",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot.png"}],
+  "type": "clock",
+  "tags": "clock",
+  "supports": ["BANGLEJS","BANGLEJS2"],
+  "allow_emulator": true,
+  "storage": [
+    {"name":"dlgantonclk.app.js","url":"app.js"},
+    {"name":"dlgantonclk.settings.js","url":"settings.js"},
+    {"name":"dlgantonclk.img","url":"app-icon.js","evaluate":true}
+  ],
+  "data": [{"name":"dlgantonclk.json"}]
+}
